@@ -18,6 +18,8 @@
 		BD6DDD1B23993CB100CA2A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6DDD1A23993CB100CA2A91 /* Main.storyboard */; };
 		FB5F3DC423F5BD51001B9899 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5F3DC323F5BD51001B9899 /* Quake.swift */; };
 		FB5F3DC723F5C08F001B9899 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5F3DC623F5C08F001B9899 /* MapKit.framework */; };
+		FB5F3DC823F5C9B6001B9899 /* QuakeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD482541236B3C4F00FC12E9 /* QuakeDetailView.swift */; };
+		FB5F3DCA23F5CA30001B9899 /* QuakeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5F3DC923F5CA30001B9899 /* QuakeFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		BD6DDD1A23993CB100CA2A91 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FB5F3DC323F5BD51001B9899 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
 		FB5F3DC623F5C08F001B9899 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FB5F3DC923F5CA30001B9899 /* QuakeFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,7 @@
 				BD48251B236B3B6600FC12E9 /* SceneDelegate.swift */,
 				BD48253B236B3BD500FC12E9 /* EarthquakesViewController.swift */,
 				BD482541236B3C4F00FC12E9 /* QuakeDetailView.swift */,
+				FB5F3DC923F5CA30001B9899 /* QuakeFetcher.swift */,
 				BD6DDD1A23993CB100CA2A91 /* Main.storyboard */,
 				BD482522236B3B6800FC12E9 /* Assets.xcassets */,
 				BD482524236B3B6800FC12E9 /* LaunchScreen.storyboard */,
@@ -225,7 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD48251A236B3B6600FC12E9 /* AppDelegate.swift in Sources */,
+				FB5F3DC823F5C9B6001B9899 /* QuakeDetailView.swift in Sources */,
 				FB5F3DC423F5BD51001B9899 /* Quake.swift in Sources */,
+				FB5F3DCA23F5CA30001B9899 /* QuakeFetcher.swift in Sources */,
 				BD48253C236B3BD500FC12E9 /* EarthquakesViewController.swift in Sources */,
 				BD48251C236B3B6600FC12E9 /* SceneDelegate.swift in Sources */,
 			);
